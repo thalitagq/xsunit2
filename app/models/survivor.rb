@@ -1,5 +1,4 @@
 class Survivor < ApplicationRecord
-   
     after_save  :check_abduction
 	after_update :check_abduction
     
